@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03CC1EF70E554A2B12A861DE /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D2CDAD82F305A97098C91F /* RecipesView.swift */; };
+		060F4F54329E48845FB7CADC /* Planning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6B71211BD3267D65546B0E /* Planning.swift */; };
+		09482B99E6C114938F9277BE /* Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31716E6F00D0C5A208936B64 /* Reminders.swift */; };
+		0C9AD3C5360C9DACE77C338B /* Syncing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F602DB6407F73EA177A67CF /* Syncing.swift */; };
+		15BFC279614E11D905367931 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066287D2BE1DBB8B0A552A71 /* SettingsView.swift */; };
+		17B68776F33E91F71F2416C0 /* Sharing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980C9B81B6226362EF7BF2F9 /* Sharing.swift */; };
+		2575C0BE85700EE9D83F50F4 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A33A3BAB319380495B4C67 /* Models.swift */; };
+		2E3468E5BF6C9728D3BC4933 /* RecipePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF704C36B649349878A24D3 /* RecipePickerView.swift */; };
+		34337687E092B7B5B2DA2922 /* Household.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AA88AE33F74EE1CD1E835D /* Household.swift */; };
+		44E2CA5202F6F289733F8DAC /* MealFlowWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8656E3F191EFE136C802934 /* MealFlowWidgets.swift */; };
+		48605FE2CD338287D8B96E60 /* Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31716E6F00D0C5A208936B64 /* Reminders.swift */; };
+		62C9FDA7A439119D85CFB273 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A33A3BAB319380495B4C67 /* Models.swift */; };
+		669FBEB868C9CFD6D09E9CAF /* DayDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F78AB1480A55FD452BF3107 /* DayDetailView.swift */; };
+		7393234C2E23B8CF9618D251 /* Household.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AA88AE33F74EE1CD1E835D /* Household.swift */; };
+		7881E9F1679E909DF4EF23F6 /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5123132BBD66FE075A6EDD8 /* PlanView.swift */; };
+		948BA78141DB3ADFD7ED2984 /* Planning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6B71211BD3267D65546B0E /* Planning.swift */; };
+		9B66CE3E4B9865F199C5E041 /* RecipeImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57538CDCFCDED51F276C254 /* RecipeImportView.swift */; };
+		A9E31E48A63825E4401D686A /* Sharing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980C9B81B6226362EF7BF2F9 /* Sharing.swift */; };
+		AA20221374D12552844DB133 /* MealFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811C864E30F92AED8E3677C7 /* MealFlowApp.swift */; };
+		AFB4334148274D53BE901AEA /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C3F4BAC70FC2FAE8ADFA4E /* RecipeDetailView.swift */; };
+		C5BC062530D8FEBFAC6DD081 /* Shopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B62F62A13C25C0B6DE437E /* Shopping.swift */; };
+		CBEF493D918516A2AC8BC150 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C664579D528A3FBA14EA8 /* AppTheme.swift */; };
+		D204B3F13311A50CDA317452 /* Importing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A240707CC2F5B370375007 /* Importing.swift */; };
+		D836E343955B105B536667DB /* CookingModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0C6C585FC2E2F65A56E763 /* CookingModeView.swift */; };
+		D8EA11CE56E50FF2F218B319 /* RecipeEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA304998EB8D910887F8167 /* RecipeEditorView.swift */; };
+		DBA32EE4AE6C3B301C9EE9B8 /* CozyUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DF9271E5C4E6A4D67E0A1B /* CozyUI.swift */; };
+		DC8D1F04BE7FD4ABC79DCF39 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43839CC4E0D26C2815F792D /* RootTabView.swift */; };
+		DD62321ED9D086DA7D88704E /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5303F44D90D9B3530BF71FD /* ShopView.swift */; };
+		E534419C8FC2D5E767E31CDE /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F787C53669F1857A3ED628 /* SampleData.swift */; };
+		F47C58300EB7B8E8911BD939 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D6D5EAB820A5C73E95063D /* AppStore.swift */; };
+		F6027823188A64CDB91BB58D /* Importing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A240707CC2F5B370375007 /* Importing.swift */; };
+		FD6B404C8C81471E244F2A62 /* Shopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B62F62A13C25C0B6DE437E /* Shopping.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		831DF28EA17B4547A62F051E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BD1708462A64BAA69E91DD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F389230AA86E5A01F773242;
+			remoteInfo = MealFlow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		066287D2BE1DBB8B0A552A71 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		09B62F62A13C25C0B6DE437E /* Shopping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping.swift; sourceTree = "<group>"; };
+		23992DAA3D3159F4B2837F27 /* MealFlow.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MealFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24A240707CC2F5B370375007 /* Importing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Importing.swift; sourceTree = "<group>"; };
+		31716E6F00D0C5A208936B64 /* Reminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminders.swift; sourceTree = "<group>"; };
+		40C3F4BAC70FC2FAE8ADFA4E /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		47FFBCFD16FE6B2622813949 /* MealFlowWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = MealFlowWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A33A3BAB319380495B4C67 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		5BB4483AA1CDEEFB57057EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5E6B71211BD3267D65546B0E /* Planning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planning.swift; sourceTree = "<group>"; };
+		60D2CDAD82F305A97098C91F /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesView.swift; sourceTree = "<group>"; };
+		62DF9271E5C4E6A4D67E0A1B /* CozyUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CozyUI.swift; sourceTree = "<group>"; };
+		6C0C6C585FC2E2F65A56E763 /* CookingModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingModeView.swift; sourceTree = "<group>"; };
+		6F78AB1480A55FD452BF3107 /* DayDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailView.swift; sourceTree = "<group>"; };
+		71E4EBB36CA67994A04FCD9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		811C864E30F92AED8E3677C7 /* MealFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealFlowApp.swift; sourceTree = "<group>"; };
+		980C9B81B6226362EF7BF2F9 /* Sharing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sharing.swift; sourceTree = "<group>"; };
+		9EA304998EB8D910887F8167 /* RecipeEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeEditorView.swift; sourceTree = "<group>"; };
+		9F602DB6407F73EA177A67CF /* Syncing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Syncing.swift; sourceTree = "<group>"; };
+		A0D6D5EAB820A5C73E95063D /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		ABF704C36B649349878A24D3 /* RecipePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipePickerView.swift; sourceTree = "<group>"; };
+		B68C664579D528A3FBA14EA8 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		B7AA88AE33F74EE1CD1E835D /* Household.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Household.swift; sourceTree = "<group>"; };
+		B8656E3F191EFE136C802934 /* MealFlowWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealFlowWidgets.swift; sourceTree = "<group>"; };
+		C43839CC4E0D26C2815F792D /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		D1F787C53669F1857A3ED628 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		E57538CDCFCDED51F276C254 /* RecipeImportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeImportView.swift; sourceTree = "<group>"; };
+		F5123132BBD66FE075A6EDD8 /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
+		F5303F44D90D9B3530BF71FD /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1B1DCEEA20D16A62E0D60650 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23992DAA3D3159F4B2837F27 /* MealFlow.app */,
+				47FFBCFD16FE6B2622813949 /* MealFlowWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F05A863CE74549A1B2D560D /* MealFlowWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				5BB4483AA1CDEEFB57057EFD /* Info.plist */,
+				B8656E3F191EFE136C802934 /* MealFlowWidgets.swift */,
+			);
+			path = MealFlowWidgets;
+			sourceTree = "<group>";
+		};
+		464C14BD188A76F03B1AF3AB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				066287D2BE1DBB8B0A552A71 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		50047EF9F8FAAE86F96E76E9 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				B68C664579D528A3FBA14EA8 /* AppTheme.swift */,
+				62DF9271E5C4E6A4D67E0A1B /* CozyUI.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		6C5AB8A51304572B54F4E4BB /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				7151CD53F2467439AA478E6A /* Plan */,
+				FC09B23E3615A8E4FA293996 /* Recipes */,
+				464C14BD188A76F03B1AF3AB /* Settings */,
+				D3EE9EF81BBB986BFBD03ECB /* Shop */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		7151CD53F2467439AA478E6A /* Plan */ = {
+			isa = PBXGroup;
+			children = (
+				6F78AB1480A55FD452BF3107 /* DayDetailView.swift */,
+				F5123132BBD66FE075A6EDD8 /* PlanView.swift */,
+				ABF704C36B649349878A24D3 /* RecipePickerView.swift */,
+			);
+			path = Plan;
+			sourceTree = "<group>";
+		};
+		752F737F028B65FE3A622AEB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D1F787C53669F1857A3ED628 /* SampleData.swift */,
+				9F602DB6407F73EA177A67CF /* Syncing.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7CC041C8523DE6E784A3DEC8 /* MealFlowApp */ = {
+			isa = PBXGroup;
+			children = (
+				71E4EBB36CA67994A04FCD9A /* Info.plist */,
+				811C864E30F92AED8E3677C7 /* MealFlowApp.swift */,
+				D1D79D73C9E6FA46F51C0236 /* App */,
+				50047EF9F8FAAE86F96E76E9 /* DesignSystem */,
+				6C5AB8A51304572B54F4E4BB /* Features */,
+				752F737F028B65FE3A622AEB /* Shared */,
+			);
+			path = MealFlowApp;
+			sourceTree = "<group>";
+		};
+		7D8AEE7650119E4E64578CE1 /* MealFlowDomain */ = {
+			isa = PBXGroup;
+			children = (
+				B7AA88AE33F74EE1CD1E835D /* Household.swift */,
+				24A240707CC2F5B370375007 /* Importing.swift */,
+				50A33A3BAB319380495B4C67 /* Models.swift */,
+				5E6B71211BD3267D65546B0E /* Planning.swift */,
+				31716E6F00D0C5A208936B64 /* Reminders.swift */,
+				980C9B81B6226362EF7BF2F9 /* Sharing.swift */,
+				09B62F62A13C25C0B6DE437E /* Shopping.swift */,
+			);
+			path = MealFlowDomain;
+			sourceTree = "<group>";
+		};
+		812A1BA73B229D17B8822C0F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7D8AEE7650119E4E64578CE1 /* MealFlowDomain */,
+			);
+			name = Sources;
+			path = MealFlowDomain/Sources;
+			sourceTree = "<group>";
+		};
+		907A70F701C7714F0DF351E3 = {
+			isa = PBXGroup;
+			children = (
+				7CC041C8523DE6E784A3DEC8 /* MealFlowApp */,
+				2F05A863CE74549A1B2D560D /* MealFlowWidgets */,
+				812A1BA73B229D17B8822C0F /* Sources */,
+				1B1DCEEA20D16A62E0D60650 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1D79D73C9E6FA46F51C0236 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A0D6D5EAB820A5C73E95063D /* AppStore.swift */,
+				C43839CC4E0D26C2815F792D /* RootTabView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D3EE9EF81BBB986BFBD03ECB /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				F5303F44D90D9B3530BF71FD /* ShopView.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		FC09B23E3615A8E4FA293996 /* Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				6C0C6C585FC2E2F65A56E763 /* CookingModeView.swift */,
+				40C3F4BAC70FC2FAE8ADFA4E /* RecipeDetailView.swift */,
+				9EA304998EB8D910887F8167 /* RecipeEditorView.swift */,
+				E57538CDCFCDED51F276C254 /* RecipeImportView.swift */,
+				60D2CDAD82F305A97098C91F /* RecipesView.swift */,
+			);
+			path = Recipes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6743A03DA4BB177F8B20AB2D /* MealFlowWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F75FCD32D2064C5D2458F14 /* Build configuration list for PBXNativeTarget "MealFlowWidgets" */;
+			buildPhases = (
+				AB87934E394DB4E573F2F868 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C965A2063720DF67F81FF2DB /* PBXTargetDependency */,
+			);
+			name = MealFlowWidgets;
+			packageProductDependencies = (
+			);
+			productName = MealFlowWidgets;
+			productReference = 47FFBCFD16FE6B2622813949 /* MealFlowWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8F389230AA86E5A01F773242 /* MealFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52F11E14A12D57CDB541C71F /* Build configuration list for PBXNativeTarget "MealFlow" */;
+			buildPhases = (
+				D082EF9E150D0A0BDB07EE73 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MealFlow;
+			packageProductDependencies = (
+			);
+			productName = MealFlow;
+			productReference = 23992DAA3D3159F4B2837F27 /* MealFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BD1708462A64BAA69E91DD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 2E0BC4BAD70B06F7E8165581 /* Build configuration list for PBXProject "MealFlow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 907A70F701C7714F0DF351E3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F389230AA86E5A01F773242 /* MealFlow */,
+				6743A03DA4BB177F8B20AB2D /* MealFlowWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB87934E394DB4E573F2F868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34337687E092B7B5B2DA2922 /* Household.swift in Sources */,
+				D204B3F13311A50CDA317452 /* Importing.swift in Sources */,
+				44E2CA5202F6F289733F8DAC /* MealFlowWidgets.swift in Sources */,
+				62C9FDA7A439119D85CFB273 /* Models.swift in Sources */,
+				948BA78141DB3ADFD7ED2984 /* Planning.swift in Sources */,
+				09482B99E6C114938F9277BE /* Reminders.swift in Sources */,
+				17B68776F33E91F71F2416C0 /* Sharing.swift in Sources */,
+				C5BC062530D8FEBFAC6DD081 /* Shopping.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D082EF9E150D0A0BDB07EE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F47C58300EB7B8E8911BD939 /* AppStore.swift in Sources */,
+				CBEF493D918516A2AC8BC150 /* AppTheme.swift in Sources */,
+				D836E343955B105B536667DB /* CookingModeView.swift in Sources */,
+				DBA32EE4AE6C3B301C9EE9B8 /* CozyUI.swift in Sources */,
+				669FBEB868C9CFD6D09E9CAF /* DayDetailView.swift in Sources */,
+				7393234C2E23B8CF9618D251 /* Household.swift in Sources */,
+				F6027823188A64CDB91BB58D /* Importing.swift in Sources */,
+				AA20221374D12552844DB133 /* MealFlowApp.swift in Sources */,
+				2575C0BE85700EE9D83F50F4 /* Models.swift in Sources */,
+				7881E9F1679E909DF4EF23F6 /* PlanView.swift in Sources */,
+				060F4F54329E48845FB7CADC /* Planning.swift in Sources */,
+				AFB4334148274D53BE901AEA /* RecipeDetailView.swift in Sources */,
+				D8EA11CE56E50FF2F218B319 /* RecipeEditorView.swift in Sources */,
+				9B66CE3E4B9865F199C5E041 /* RecipeImportView.swift in Sources */,
+				2E3468E5BF6C9728D3BC4933 /* RecipePickerView.swift in Sources */,
+				03CC1EF70E554A2B12A861DE /* RecipesView.swift in Sources */,
+				48605FE2CD338287D8B96E60 /* Reminders.swift in Sources */,
+				DC8D1F04BE7FD4ABC79DCF39 /* RootTabView.swift in Sources */,
+				E534419C8FC2D5E767E31CDE /* SampleData.swift in Sources */,
+				15BFC279614E11D905367931 /* SettingsView.swift in Sources */,
+				A9E31E48A63825E4401D686A /* Sharing.swift in Sources */,
+				DD62321ED9D086DA7D88704E /* ShopView.swift in Sources */,
+				FD6B404C8C81471E244F2A62 /* Shopping.swift in Sources */,
+				0C9AD3C5360C9DACE77C338B /* Syncing.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C965A2063720DF67F81FF2DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F389230AA86E5A01F773242 /* MealFlow */;
+			targetProxy = 831DF28EA17B4547A62F051E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		34D239621CD3F38800A35924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MealFlowWidgets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradleyyoung.mealflow.widgets;
+				PRODUCT_NAME = MealFlowWidgets;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70F0B7385E48BA206AC29584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		771D015F086924CF205DBB07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MealFlowWidgets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradleyyoung.mealflow.widgets;
+				PRODUCT_NAME = MealFlowWidgets;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F0D05D2CB8B8809BC2EB094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MealFlowApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradleyyoung.mealflow;
+				PRODUCT_NAME = MealFlow;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B59E7AE99C2C6AD6A873C297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MealFlowApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradleyyoung.mealflow;
+				PRODUCT_NAME = MealFlow;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF22BA951E8B1BDD9B7A5456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E0BC4BAD70B06F7E8165581 /* Build configuration list for PBXProject "MealFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F0B7385E48BA206AC29584 /* Debug */,
+				CF22BA951E8B1BDD9B7A5456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		52F11E14A12D57CDB541C71F /* Build configuration list for PBXNativeTarget "MealFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59E7AE99C2C6AD6A873C297 /* Debug */,
+				7F0D05D2CB8B8809BC2EB094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7F75FCD32D2064C5D2458F14 /* Build configuration list for PBXNativeTarget "MealFlowWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D239621CD3F38800A35924 /* Debug */,
+				771D015F086924CF205DBB07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BD1708462A64BAA69E91DD6 /* Project object */;
+}
